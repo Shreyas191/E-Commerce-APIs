@@ -3,7 +3,7 @@
 What's implemented in the code :
 1. APIs created to add coupons with type Cart-Wise, Product-Wise and BxGy
 2. Implemented using Entity classes, created DTO to handle each and every request.
-3. Created Services to handle the logic.
+3. Created Service classed to handle the logic.
 4. Implemented two controller classes one to add coupons and other to retrieve coupons.
 5. Added unit test cases.
 6. MySQL database is used to save and retrieve data.
