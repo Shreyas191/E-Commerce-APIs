@@ -12,7 +12,7 @@ What else can be done :
 1. Delete mapping and put mapping is not handled in the code, which can be easily implemented.
 2. Coupons expiry dates not added which can be added in future.
 3. Nested static classes are used in the DTO classes to handle the request and response payload which can be implemented by creating seperate classes and creating object inside the required class instead of creating inner class, which will provide more flexibility to the code.
-4. Response entities DTOS needs to be created so that appropriate response along with the HTTP status can be sent.
+4. Error Response DTOS needs to be created so that appropriate response along with the HTTP status can be sent.
 5. Need to implement authentication and authorization using Spring Security and JWT authentication, so that only authorized users or admins with role specific access can add coupons.
 6. Redis cache can be implemented so that frequent calls to the database are reduced significantly.
 7. Can add coupons based on the type of products eg(Clothing, Electronics, Footware. Groceries).
